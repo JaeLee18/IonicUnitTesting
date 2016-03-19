@@ -2,15 +2,15 @@
 Using Protractors to test Ionic applications.
 
  - Installation
-1. $ npm install -g protractor
-2. $ webdriver-manager update
+ 1. $ npm install -g protractor
+ 2. $ webdriver-manager update
 
 
 - Testing
-1. List testing source files in config file like 'tests.conf.js'
-(Make sure to include "--disable-web-security" for Chrome)
-2. $ ionic serve --nobrowser
-3. protractor 'your config file name'
+ 1. List testing source files in config file like 'tests.conf.js'
+ (Make sure to include "--disable-web-security" for Chrome)
+ 2. $ ionic serve --nobrowser
+ 3. protractor 'your config file name'
 
 
 * login.tests.js
