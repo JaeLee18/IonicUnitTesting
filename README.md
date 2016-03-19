@@ -13,17 +13,17 @@ Using Protractors to test Ionic applications.
  3. protractor 'your config file name'
 
 
-* login.tests.js
+* Example: login.tests.js
 
-- Use browser.get('/#/login') to access login page.
-- Get username from ng-model by 'user.email'
-- Get password from ng-model by 'user.password'
-- Get a button for login from ng-model by 'login-click'
+ - Use browser.get('/#/login') to access login page.
+ - Get username from ng-model by 'user.email'
+ - Get password from ng-model by 'user.password'
+ - Get a button for login from ng-model by 'login-click'
 
--After get all the information to test,
- I will send testing values by *.sendKeys('Type of value')
+ - After get all the information to test,
+  I will send testing values by *.sendKeys('Type of value')
  
-- use brower.sleep(1000);  to wait the program a second to load the webpage.
+ - Use brower.sleep(1000);  to wait the program a second to load the webpage.
 
 - If the Url contains '/tab/home', then the test case was succesful.
 
