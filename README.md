@@ -25,7 +25,7 @@ Using Protractors to test Ionic applications.
  
  - Use brower.sleep(1000);  to wait the program a second to load the webpage.
 
-- If the Url contains '/tab/home', then the test case was succesful.
+ - If the Url contains '/tab/home', then the test case was succesful.
 
 
     
