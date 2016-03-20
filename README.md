@@ -29,3 +29,4 @@ Using Protractors to test Ionic applications.
 
     
 
+Protractor Documentation: https://angular.github.io/protractor/#/api
